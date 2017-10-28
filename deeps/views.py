@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from keras.models import load_model
+#from keras.models import load_model
 import json
 
 #model = load_model("model.h5")
