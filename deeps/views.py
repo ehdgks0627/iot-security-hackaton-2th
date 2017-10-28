@@ -14,7 +14,7 @@ def check(request):
     features = req["features"]
     #request.POST("",data={})
     isInfacted = True
-    return HttpResponse(str({"check": isInfacted, "time": time}).replace("'", '"').reaplce("True", "true").replace("False", "false"))
+    return HttpResponse(str({"check": isInfacted, "time": time}).replace("'", '"').replace("True", "true").replace("False", "false"))
 
 
 {"check": True}
