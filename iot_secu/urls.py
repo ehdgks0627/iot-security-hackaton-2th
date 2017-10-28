@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^v1/admin/', admin.site.urls),
     url(r'^v1/deeps/', include("deeps.urls", namespace="deeps")),
+    url(r'^v1/device/', include("device.urls", namespace="device")),
 ]
